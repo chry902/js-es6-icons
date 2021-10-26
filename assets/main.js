@@ -1,4 +1,4 @@
-[
+const icon = [
     {
         name: 'cat',
         prefix: 'fa-',
@@ -98,11 +98,11 @@
 ];
 
 
-icons.array.forEach((icon, index, array) => {
+icon.forEach((icon, index, array) => {
     const cardElement = `
     <div class="cards">
-        <i class="${icon.family} ${icon.prefix} ${icon.name}"></i>
-        <p>${icon.name}</p>
+        <i class="${icon.family} ${icon.prefix} ${icon.type}"></i>
+        <p>${icon.type}</p>
     </div>
     `
 
