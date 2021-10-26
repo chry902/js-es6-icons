@@ -1,4 +1,4 @@
-const icons = [
+[
     {
         name: 'cat',
         prefix: 'fa-',
@@ -94,17 +94,17 @@ const icons = [
         prefix: 'fa-',
         type: 'user',
         family: 'fas'
-    }
+    },
 ];
 
 
-icons.array.forEach(icon, index, array => {
+icons.array.forEach((icon, index, array) => {
     const cardElement = `
     <div class="cards">
-        <i class="${icon.family} ${icon.prefix} ${icon.name} "></i>
+        <i class="${icon.family} ${icon.prefix} ${icon.name}"></i>
         <p>${icon.name}</p>
     </div>
     `
 
     document.querySelector(`.cards`).insertAdjacentHTML(`beforeend`, cardElement)
-});
+})
