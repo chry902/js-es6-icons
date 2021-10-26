@@ -9,7 +9,10 @@ nav{
     background-color: aqua;
 }
 .cards{
+    text-align: center;
+    align-items: center;
     width: 150px;
+    height: 100px;
     background-color: bisque;
     
 }
