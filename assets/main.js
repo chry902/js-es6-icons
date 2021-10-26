@@ -102,7 +102,7 @@ icon.forEach((icon, index, array) => {
     const cardElement = `
     <div class="cards">
         <i class="${icon.family} ${icon.prefix} ${icon.type}"></i>
-        <p>${icon.type}</p>
+        <p>${icon.name}</p>
     </div>
     `
 
